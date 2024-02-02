@@ -1,0 +1,40 @@
+1. check by command line node -v and npm -v
+2. we have to make server and whatever data make request to server , we have to make response to that 
+in form of api(response)=> all work done by express
+3.let you has visit postman.com then there has a server which listen and server will decide what type of 
+response it will give; A listener is a process that checks for connection requests, using the protocol 
+and port that you configure :|
+4. whenever we are goes to google.com or anyother then it will known as "/" or home route
+5. like that we will get different route on different application like someone says to go /login then
+there you will get login page , /signup or other
+6. there are different type of request comes to the server , basic request is Get | there is other 
+request type as well like for updated data , delete data from the server that will be other type of
+request 
+
+
+
+7. step to start
+a. have to make an empty node file via npm init => initilize a package using npm => init is a kind of
+utility like CRA or Vite for react || This utility will walk you through creating a package.json file.
+It only covers the most common items, and tries to guess sensible defaults; it will create only one
+file
+
+b. here whatever you will write as a description during npm init command run that never goes to the 
+server and nothing will shown in the frontend
+
+
+8. here index.js is the main file but how can we run this file that's why firstly create a index.js file
+manually => after that type ls in terminal and if that file can see with include of package.json then
+we can run index.js or particular that file with node => now how can run this file using package.json
+that's why we are make script command like below,
+"scripts": {
+    "start":"node index.js"
+  },
+  after that we will run the command "npm run start" and actully node index.js file gets run =>
+  it will be usefull during deploy on the server => here we can not see much more changes but whenever
+  we move our file to the server then this script file actully becomes helpful
+   output of followin code will be whatever is write inside the index.js file
+
+
+9. Now everything will done via express(to communicate server and the user device) so have to install it
+after install we can see express within dependencies object of package.json   

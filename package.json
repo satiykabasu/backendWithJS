@@ -1,0 +1,19 @@
+{
+  "name": "backendwithjs",
+  "version": "1.0.0",
+  "description": "a app to deploy",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "backend"
+  ],
+  "author": "satiyka basu",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
